@@ -11,10 +11,13 @@ Matrix Animation in your Terminal (cross-platform in PowerShell). Written to be 
 - Dynamic resizing to fit the terminal window
 
 ## Demo
-Matrix Running in MacOS Iterm2 |
---- |
-<img width="767" alt="Screenshot 2024-08-27 at 8 18 08 PM" src="https://github.com/user-attachments/assets/9242e402-442a-4a8b-98d9-5550c1b1c854"> |
 
+Matrix in Unix Renderer (WinTerm) | Matrix in Windows Renderer (WinTerm)
+--- | ---
+![Animation](https://github.com/user-attachments/assets/ca0086ca-4406-436b-97d2-8e7acd31e911) | ![Animation](https://github.com/user-attachments/assets/38b35d4e-8e69-4e70-a631-3df72a97917d)
+<!-- <img width="767" alt="Screenshot 2024-08-27 at 8 18 08 PM" src="https://github.com/user-attachments/assets/9242e402-442a-4a8b-98d9-5550c1b1c854"> -->
+
+_**Note:** Iterm2 is perfectly supported! This entire file is cross-platform!_
 
 ## Features
 
