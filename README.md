@@ -1,14 +1,6 @@
 # Pwsh Matrix Animation
 
-Matrix Animation in your Terminal (cross-platform in PowerShell). Written to be quite flexible, featuring:
-- Cross-platform rendering systems (Switchable with `-Renderer [Windows, Unix]`)
-  - Windows mode: Uses PowerShell's native console manipulation capabilities through `System.Management.Automation.Host` namespace. It utilizes `Place-BufferedContent` for precise character placement and supports Windows console color schemes.
-  - Unix mode: Employs ANSI escape sequences for text positioning and coloring, providing compatibility with a wide range of Unix-based terminals. This mode offers more fine-grained color control, enabling smoother color transitions and a more vibrant "glow" effect for the leading characters.
-- Adjustable sparsity of the matrix effect with `-Sparsity`
-- Customizable animation speed with `-SleepTime`
-- Option to use special characters for a more authentic Matrix look with `-SpecialChars` (works best with Unicode-compatible terminals)
-- Debug mode for troubleshooting with `-Debug`
-- Dynamic resizing to fit the terminal window
+Matrix Animation in your Terminal (cross-platform in PowerShell). With lots of rendering options below!
 
 ## Demo
 
@@ -17,16 +9,23 @@ Matrix in Unix Renderer (WinTerm) | Matrix in Windows Renderer (WinTerm)
 ![Animation](https://github.com/user-attachments/assets/ca0086ca-4406-436b-97d2-8e7acd31e911) | ![Animation](https://github.com/user-attachments/assets/38b35d4e-8e69-4e70-a631-3df72a97917d)
 <!-- <img width="767" alt="Screenshot 2024-08-27 at 8 18 08 PM" src="https://github.com/user-attachments/assets/9242e402-442a-4a8b-98d9-5550c1b1c854"> -->
 
+Matrix with Retro Effect in WinTerm |
+--- |
+![Image](https://github.com/user-attachments/assets/03e6b645-3f24-42fc-8472-81872f8c5ff9) |
+
 _**Note:** Iterm2 is perfectly supported! This entire file is cross-platform!_
 
 ## Features
 
-- Cross-platform compatibility (Windows and Unix-based systems)
-- Adjustable matrix density
-- Customizable animation speed
-- Special character mode for authentic Matrix appearance
-- Dynamic resizing to fit terminal window
-- Debug mode for troubleshooting
+Written to be quite flexible, featuring:
+- Cross-platform rendering systems (Switchable with `-Renderer [Windows, Unix]`)
+  - Windows mode: Uses PowerShell's native console manipulation capabilities through `System.Management.Automation.Host` namespace. It utilizes `Place-BufferedContent` for precise character placement and supports Windows console color schemes.
+  - Unix mode: Employs ANSI escape sequences for text positioning and coloring, providing compatibility with a wide range of Unix-based terminals. This mode offers more fine-grained color control, enabling smoother color transitions and a more vibrant "glow" effect for the leading characters.
+- Adjustable sparsity of the matrix effect with `-Sparsity`
+- Customizable animation speed with `-SleepTime`
+- Option to use special characters for a **more authentic Matrix look** with `-SpecialChars` (works best with Unicode-compatible terminals)
+- Debug mode for troubleshooting with `-Debug`
+- Dynamic resizing to fit the terminal window
 
 ## Requirements
 
