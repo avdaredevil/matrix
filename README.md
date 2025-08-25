@@ -4,14 +4,26 @@ Matrix Animation in your Terminal (cross-platform in PowerShell). With lots of r
 
 ## Demo
 
-Matrix in Unix Renderer (WinTerm) | Matrix in Windows Renderer (WinTerm)
---- | ---
-![Animation](https://github.com/user-attachments/assets/ca0086ca-4406-436b-97d2-8e7acd31e911) | ![Animation](https://github.com/user-attachments/assets/38b35d4e-8e69-4e70-a631-3df72a97917d)
-<!-- <img width="767" alt="Screenshot 2024-08-27 at 8 18 08 PM" src="https://github.com/user-attachments/assets/9242e402-442a-4a8b-98d9-5550c1b1c854"> -->
+<table>
+  <thead>
+    <th>Matrix in Unix Renderer (WinTerm)</th>
+    <th>Matrix in Windows Renderer (WinTerm)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img alt="Matrix in Unix Renderer (WinTerm)" src="https://github.com/user-attachments/assets/ca0086ca-4406-436b-97d2-8e7acd31e911"></td>
+      <td><img alt="Matrix in Windows Renderer (WinTerm)" src="https://github.com/user-attachments/assets/38b35d4e-8e69-4e70-a631-3df72a97917d"></td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center"><h4>Retro Effect in WinTerm</h4></th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img width="500px" alt="Retro Effect in WinTerm" src="https://github.com/user-attachments/assets/03e6b645-3f24-42fc-8472-81872f8c5ff9"></td>
+    </tr>
+  </tbody>
+</table>
 
-Matrix with Retro Effect in WinTerm |
---- |
-![Image](https://github.com/user-attachments/assets/03e6b645-3f24-42fc-8472-81872f8c5ff9) |
+<!-- <img width="767" alt="Screenshot 2024-08-27 at 8 18 08 PM" src="https://github.com/user-attachments/assets/9242e402-442a-4a8b-98d9-5550c1b1c854"> -->
 
 _**Note:** Iterm2 is perfectly supported! This entire file is cross-platform!_
 
